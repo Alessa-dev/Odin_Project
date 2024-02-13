@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/*********************************************Main****************************************/
+
+.main_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1F2937;
+  height: 100%;
+  width: 100%;
+}
+
+/***************************************************Header*************************************/
+
+.nav {
+  width: 100%;
+  position: relative;
+  padding: 25px 150px;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+/********************************************First_section**************************************/
+
+.first_section_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: star;
+  height: 500px;
+  width: 100%;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.first_section_container_left {
+  height: 408px;
+  width: 800px;
+  color: #F9FAF8;
+}
+
+.first_section_container_right {
+  height: 408px;
+  width: 800px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_section_container_left h1 {
+  text-align: star;
+  color: #F9FAF8;
+  font-size: 50px;
+  line-height: 90px;
+  font-weight: 600;
+}
+
+#signup {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 7px 30px;
+  margin-top: 15px;
+  border-radius: 7px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/*********************************second_section***********************************************/
+
+.second_section_container {
+  height: 450px;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.second_section_title_container{
+  font-size: 36px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 40px 0;
+}
+
+.main-section-img-container {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  border: 4px solid #3882F6;
+  border-radius: 10%;
+  height: 175px;
+  width: 175px;
+}
+
+.subtext {
+  text-align: center;
+  max-width: 175px;
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+/*********************************third_section***********************************************/
+
+
+.third_section_container{
+  display: flex;
+  flex-direction: column;
+  height: 425px;
+  background-color: rgb(223, 216, 216);
+}
+
+.third_section_text_container {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 125px 250px 0 250px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.third_section_container_author {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px 275px 0 0;
+  align-self: flex-end;
+}
+
+/*********************************section_bottom***********************************************/
+
+.section_bottom {
+  display: flex;
+  height: 350px;
+  width: 100%;
+  background-color: white;
+  color: #F9FAF8;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+}
+
+.section_bottom_blue_box_left {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  padding-left: 150px;
+  flex: 2;
+}
+
+.section_bottom_blue_box_right {
+  display: flex;
+  flex: 1;
+  align-self: center;
+  padding-bottom: 15px;
+}
+
+.section_bottom_blue_box_left h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#cta-signup {
+  border: 3px solid white;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  padding: 7px 30px;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+
+/*******************************************Footer********************************************/
+
+.footer {
+  display: flex;
+  height: 100px;
+  color: #F9FAF8;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
